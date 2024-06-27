@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container{
+  width: 25%;
+  height: 50%;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 12px;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+#hidden{
+  display: none;
+}
+
+.img{
+  background-color: hsl(217, 12%, 63%);
+  display: flex;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.img img{
+  width: 25px;
+  height: 25px;
+}
+
+h2{
+  color: white;
+  margin-bottom: 3rem;
+}
+
+p{
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 2rem;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+li{
+  float: left;
+}
+
+
+.rating-num{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.rating-num:hover{
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+button{
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background-color: orange;
+  border-radius: 18px;
+  transition: 0.7s;
+}
+
+button:hover{
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+#thanks{
+  width: 25%;
+  height: 50%;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 12px;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  display: none;
+}
